@@ -1,0 +1,191 @@
+#topImg img{
+    width: 24px;
+    height: 24px;
+    opacity: 0.3;
+    margin: 1px;
+    cursor: pointer;
+    background-color: #121212;
+}
+#tabs{
+    background-color: transparent;
+}
+#tabs button{
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    min-width:60px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    color: #999999;
+    background-color: transparent;
+}
+#tabs span:nth-of-type(7){
+    background-color: #03ae73;
+    width: 75px !important;
+}
+
+.displayInline {
+    display: inline-flex;
+}
+
+.displayInlineDiv {
+    display: inline-flex;
+}
+
+.displayBlock {
+    display: block !important;
+}
+.listTabsActive {
+    color: #999;
+
+    border-bottom:  2px solid #03ae73;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 6px 6px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    /*border: 1px solid #00bfa5;*/
+    /*background-color: #00bfa5;*/
+    margin: 2px;
+    cursor: pointer;
+}
+
+.listTabsInActive {
+    /*border: 1px solid #00bfa5;*/
+    color: #999;
+    padding: 6px 6px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    /*background-color: white;*/
+    margin: 2px;
+    cursor: pointer;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.centerDiv {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.ReportPatientDiv {
+    margin: 50px 0;
+    padding: 20px 0 30px;
+    /*border: 1px solid;*/
+    border-radius: 5px;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+.headerText{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #999;
+}
+
+.capital{
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 0.5px;
+    color: #666;
+}
+
+.reminder{
+    font-family: Poppins;
+    font-size: 12px;
+    padding: 8px 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #666;
+}
+
+.btn{
+    font-size: 12px;
+    min-width:70px;
+    font-weight: normal;
+    border-radius:3px;
+    cursor: pointer;
+    padding: 2px 4px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #666666;
+    height: 24px;
+    opacity: 0.5;
+    /*background-color: rgba(255, 255, 255, 0.12);*/
+}
+.btn.active{
+    height: 24px;
+    min-width:70px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    background-color: #0f6ebe;
+    color: #e6e6e6;
+}
+.pl-6{
+    padding-left: 6px;
+}
+
+
+.toplayerText{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    background-color:rgba(255, 255, 255, 0.06);
+    margin: 0 2px !important;
+    text-align: center;
+    font-stretch: normal;
+    font-style: normal;
+    cursor: pointer;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #999;
+}
+
+.br-left{
+    border-top-left-radius:100px;
+    border-bottom-left-radius:100px;
+}.br-right{
+    border-top-right-radius:100px;
+    border-bottom-right-radius:100px;
+}
+ .blue{
+     background-color: #0f6ebe;
+     color: #e6e6e6;
+ }

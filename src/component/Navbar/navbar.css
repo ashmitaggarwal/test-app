@@ -1,0 +1,9 @@
+input:focus,
+select:focus, .form-control:focus,
+textarea:focus,
+button:focus,#select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color:transparent;
+    border: 0;
+}
